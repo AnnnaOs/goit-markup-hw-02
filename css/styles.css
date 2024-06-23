@@ -36,7 +36,6 @@ ul {
 }
 
 .menu-link {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -50,10 +49,12 @@ ul {
   color: #404bbf;
 }
 
-.contact-link {
-  /* font-family: "Roboto", sans-serif; */
-  font-size: 16px;
+.address {
   font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -69,43 +70,40 @@ ul {
 }
 
 .hero-title {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
 .hero-button {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
-.hero-button:hover {
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
-  background: #404bbf;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .section-title {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* text-align: center; */
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .section-subtitle {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -114,8 +112,6 @@ ul {
 }
 
 .section-text {
-  /* font-family: "Roboto", sans-serif; */
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -124,6 +120,10 @@ ul {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .footer {
@@ -141,8 +141,6 @@ ul {
 }
 
 .footer-text {
-  /* font-family: "Roboto", sans-serif; */
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
